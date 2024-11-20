@@ -1,0 +1,139 @@
+/* src/pages/Alumnos.css */
+
+.alumnos-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px; /* Ajusta el valor según la altura del header */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #f0f2f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.alumnos-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #45A049;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+    cursor: pointer;
+    color: #555;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+th:hover {
+    background-color: #e0e0e0;
+}
+
+td {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #fafafa;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-warning {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    margin-right: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #fb8c00;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.pagination li {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.pagination li.active a {
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 0.6rem 1rem;
+    border-radius: 50%;
+}
+
+.pagination li a {
+    padding: 0.6rem 1rem;
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+}
+
+.pagination li:hover a {
+    background-color: #45A049;
+    color: #fff;
+}

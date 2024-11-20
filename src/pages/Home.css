@@ -1,0 +1,38 @@
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Centrado vertical en toda la ventana */
+}
+
+.home-container {
+  max-width: 800px; /* Ancho máximo del contenedor */
+  text-align: center;
+}
+
+.home-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.home-container p.lead {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.home-container .btn {
+  font-weight: bold;
+  border-radius: 8px;
+}
