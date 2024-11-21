@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,10 +27,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Construir el proyecto
+      # 4. Ejecutar análisis estático (Lint)
+      - name: Run Lint
+        run: npm run lint
+
+      # 5. Construir el proyecto
       - name: Build project
         run: npm run build
 
-      # 5. Ejecutar pruebas
-      - name: Run tests
+      # 6. Ejecutar pruebas (si tienes configurado npm test)
+      - name: Run Tests
         run: npm test
