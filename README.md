@@ -40,6 +40,7 @@ npm install
 **Diagrama de clases:**
 
 
-![image](https://github.com/user-attachments/assets/16b78154-7b0e-40d7-b46d-f710e9567793)
+![image](https://github.com/user-attachments/assets/3727f2b4-a564-4b2f-868d-701fbbf3c962)
+
 
 Si encuentras algún problema o tienes sugerencias para mejorar el sistema, no dudes en abrir un Issue en el repositorio. ¡Gracias por usar Gestutorías!
