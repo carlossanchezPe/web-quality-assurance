@@ -48,3 +48,23 @@ test('Rechaza un nombre vacío', () => {
 test('Rechaza un nombre que excede el límite de caracteres', () => {
   expect(validateName('Carlos'.repeat(20))).toBe(false);
 });
+
+
+/**
+ * Prueba adicional: Validar que se rechace un correo con espacios en blanco.
+ * Entrada: Un correo con espacios al inicio o al final.
+ * Resultado esperado: La función debe devolver false.
+ */
+test('Rechaza un correo con espacios al inicio o al final', () => {
+    expect(validateEmail('  user@example.com  ')).toBe(false);
+  });
+  
+  /**
+   * Prueba adicional: Validar que se acepte un nombre con espacios internos válidos.
+   * Entrada: Un nombre compuesto con espacios internos.
+   * Resultado esperado: La función debe devolver true.
+   */
+  test('Acepta un nombre con espacios internos válidos', () => {
+    expect(validateName('Carlos Andres')).toBe(true);
+  });
+  
