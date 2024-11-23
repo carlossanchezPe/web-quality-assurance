@@ -28,7 +28,7 @@ El sistema está compuesto por los siguientes componentes principales:
    cd gestutorias
 2. **Instalar las dependencias:**
 
--npm install
+npm install
 
 3. **Ejecutar el proyecto:**
 -npm start
@@ -36,5 +36,10 @@ El sistema está compuesto por los siguientes componentes principales:
 4. **Opcional: Ejecutar las pruebas unitarias para validar el funcionamiento:**
 -npm test -- --watchAll=false
 
+
+**Diagrama de clases:**
+
+
+![image](https://github.com/user-attachments/assets/16b78154-7b0e-40d7-b46d-f710e9567793)
 
 Si encuentras algún problema o tienes sugerencias para mejorar el sistema, no dudes en abrir un Issue en el repositorio. ¡Gracias por usar Gestutorías!
